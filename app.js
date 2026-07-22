@@ -440,14 +440,11 @@ function renderHome(){
     </div>`;
 
   const baselineBanner = `
-    <div class="card-lime card-xl" style="margin-bottom:12px">
-      <div class="row gap-12">
-        ${svgIco(I.target,'stroke="var(--lime)" fill="none" stroke-width="1.9" style="width:24px;height:24px;flex:0 0 auto"')}
-        <div class="grow"><div class="eyebrow">Baseline not set yet</div>
-          <div class="h2" style="margin-top:3px">Tonight becomes your Day 0</div></div>
+    <div class="card card-tight" style="margin-bottom:12px;border-color:rgba(135,216,206,.28)">
+      <div class="row gap-10">
+        ${svgIco(I.target,'stroke="var(--lime)" fill="none" stroke-width="1.9" style="width:18px;height:18px;flex:0 0 auto"')}
+        <div class="grow small" style="font-weight:600">Tonight becomes your <b class="lime">Day 0</b> — your first session sets your baseline.</div>
       </div>
-      <p class="small" style="color:rgba(12,13,9,.76);margin-top:12px;font-weight:600">
-        Your first real session is saved automatically as your starting posture — every session after is measured against it.</p>
     </div>`;
 
   return `
