@@ -1137,8 +1137,6 @@ function openDetail(id, originEl){
         <span class="pill pill-lime detail-loop"><span class="dot"></span>Looping swing</span>
       </div>
       <div id="detailInfo">${detailInfoHTML(h,detail.phase)}</div>
-      <div class="eyebrow" style="margin:16px 2px 0">Through the swing · tap to review</div>
-      <div class="frames" id="detailThumbs" style="margin-top:10px">${detailThumbsHTML(h,detail.phase)}</div>
     </div>`;
   o.classList.add('show');
   growFrom(o.querySelector('.detail-card'), originEl);   // grow out of the tapped joint
