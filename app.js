@@ -1134,7 +1134,7 @@ function openDetail(id, originEl){
         <svg class="glowfig" viewBox="${jointViewBox(id)}">${glowFigureAnim(POSES[detail.phase])}</svg>
         <span class="pill pill-lime detail-loop"><span class="dot"></span>Looping swing</span>
       </div>
-      <div id="detailInfo">${detailInfoHTML(h,detail.phase)}</div>
+      <div id="detailInfo" style="margin-top:14px">${detailInfoHTML(h,detail.phase)}</div>
     </div>`;
   o.classList.add('show');
   growFrom(o.querySelector('.detail-card'), originEl);   // grow out of the tapped joint
